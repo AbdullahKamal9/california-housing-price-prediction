@@ -1,6 +1,6 @@
 # california-housing-price-prediction
 Regression pipeline for California housing prices using sklearn, Random Forest, and stratified cross-validation.
-
+# California Housing Price Prediction
 
 This repository contains a simple machine learning pipeline for predicting California housing prices using a structured dataset.
 
@@ -86,3 +86,10 @@ The Random Forest model performs best and is the most reliable option in this re
 - `main.py` is focused on training and evaluation.
 - `main_old.py` includes the inference pipeline for saving predictions.
 - Make sure `output.csv` is not open in another application when running inference.
+
+## Included sample data
+
+- `sample_input.csv`: a small subset of the dataset for quick testing and demonstration. Use this file if you don't want to include the full `housing.csv` in the repository.
+
+If you need the full `housing.csv`, host it externally (Google Drive, Kaggle, etc.) and add a download link here instead of committing the full dataset.
+
